@@ -17,6 +17,7 @@ class _HomePageState extends State<HomePage> {
   FaceDetector faceDetector;
   bool isWorking = false;
   Size size;
+
   List<Face> faceList;
 
   initCamera() async {
